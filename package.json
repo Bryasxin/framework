@@ -1,0 +1,16 @@
+{
+	"name": "framework.xinhallow",
+	"type": "module",
+	"private": true,
+	"devDependencies": {
+		"@types/bun": "latest",
+		"@biomejs/biome": "^2.2.0"
+	},
+	"peerDependencies": {
+		"typescript": "^5.9.2"
+	},
+	"catalog": {
+		"@types/bun": "latest",
+		"typescript": "^5.9.2"
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"cSpell.words": ["xinhallow"],
+
+	// Formatter
+	"[typescript]": { "editor.defaultFormatter": "biomejs.biome" },
+	"[jsonc]": { "editor.defaultFormatter": "biomejs.biome" },
+	"[json]": { "editor.defaultFormatter": "biomejs.biome" },
+
+	// Editor
+	"editor.indentSize": "tabSize",
+	"editor.tabSize": 2,
+	"editor.codeActionsOnSave": {
+		"source.organizeImports.biome": "explicit"
+	}
+}
