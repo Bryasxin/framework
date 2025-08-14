@@ -2,6 +2,10 @@
 	"name": "framework.xinhallow",
 	"type": "module",
 	"private": true,
+	"scripts": {
+		"lint": "biome check",
+		"format": "biome format --write"
+	},
 	"devDependencies": {
 		"@types/bun": "latest",
 		"@biomejs/biome": "^2.2.0"
@@ -11,6 +15,10 @@
 	},
 	"catalog": {
 		"@types/bun": "latest",
+		"@biomejs/biome": "^2.2.0",
 		"typescript": "^5.9.2"
-	}
+	},
+	"workspaces": [
+		"./*.framework.xinhallow"
+	]
 }
