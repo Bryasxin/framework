@@ -1,3 +1,7 @@
 [submodule "event.framework.xinhallow"]
 	path = event.framework.xinhallow
 	url = ./event.framework.xinhallow
+
+[submodule "core.framework.xinhallow"]
+	path = core.framework.xinhallow
+	url = ./core.framework.xinhallow

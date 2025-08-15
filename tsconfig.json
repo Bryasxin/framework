@@ -15,5 +15,8 @@
 		"noUncheckedIndexedAccess": true,
 		"noImplicitOverride": true
 	},
-	"references": [{ "path": "./event.framework.xinhallow/tsconfig.json" }]
+	"references": [
+		{ "path": "./event.framework.xinhallow/tsconfig.json" },
+		{ "path": "./core.framework.xinhallow/tsconfig.json" }
+	]
 }
