@@ -1,5 +1,5 @@
 {
-	"cSpell.words": ["xinhallow"],
+	"cSpell.words": ["paramtypes", "xinhallow"],
 
 	// Formatter
 	"[typescript]": { "editor.defaultFormatter": "biomejs.biome" },
