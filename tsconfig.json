@@ -13,7 +13,9 @@
 		"skipLibCheck": true,
 		"noFallthroughCasesInSwitch": true,
 		"noUncheckedIndexedAccess": true,
-		"noImplicitOverride": true
+		"noImplicitOverride": true,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true
 	},
 	"references": [
 		{ "path": "./event.framework.xinhallow/tsconfig.json" },
