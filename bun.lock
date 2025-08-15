@@ -5,7 +5,7 @@
       "name": "framework.xinhallow",
       "devDependencies": {
         "@biomejs/biome": "^2.2.0",
-        "@types/bun": "latest",
+        "@types/bun": "^1.2.20",
       },
       "peerDependencies": {
         "typescript": "^5.9.2",
