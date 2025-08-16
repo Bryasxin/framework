@@ -1,7 +1,7 @@
-[submodule "event.framework.xinhallow"]
-	path = event.framework.xinhallow
+[submodule "framework-event"]
+	path = ./framework-event
 	url = https://github.com/Bryasxin/framework-event.git
 
-[submodule "core.framework.xinhallow"]
-	path = core.framework.xinhallow
+[submodule "framework-core"]
+	path = ./framework-core
 	url = https://github.com/Bryasxin/framework-core.git

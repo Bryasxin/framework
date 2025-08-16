@@ -17,8 +17,5 @@
 		"experimentalDecorators": true,
 		"emitDecoratorMetadata": true
 	},
-	"references": [
-		{ "path": "./event.framework.xinhallow/tsconfig.json" },
-		{ "path": "./core.framework.xinhallow/tsconfig.json" }
-	]
+	"references": [{ "path": "./framework-core/tsconfig.json" }, { "path": "./framework-event/tsconfig.json" }]
 }
