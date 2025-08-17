@@ -19,6 +19,9 @@
 		"formatter": {
 			"quoteStyle": "double",
 			"trailingCommas": "all"
+		},
+		"parser": {
+			"unsafeParameterDecoratorsEnabled": true
 		}
 	},
 	"json": {
