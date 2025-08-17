@@ -22,5 +22,9 @@
 	},
 	"workspaces": [
 		"./*.framework.xinhallow"
-	]
+	],
+	"exports": {
+		".": "./framework-core/src/index.ts",
+		"./event": "./framework-event/src/index.ts"
+	}
 }
