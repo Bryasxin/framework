@@ -15,7 +15,11 @@
 		"noUncheckedIndexedAccess": true,
 		"noImplicitOverride": true,
 		"experimentalDecorators": true,
-		"emitDecoratorMetadata": true
+		"emitDecoratorMetadata": true,
+		"paths": {
+			"@core": ["./framework-core/src"],
+			"@core/*": ["./framework-core/src/*"]
+		}
 	},
-	"references": [{ "path": "./framework-core/tsconfig.json" }, { "path": "./framework-event/tsconfig.json" }]
+	"references": [{ "path": "./framework-core/tsconfig.json" }]
 }

@@ -1,7 +1,3 @@
-[submodule "framework-event"]
-	path = framework-event
-	url = https://github.com/Bryasxin/framework-event
-
 [submodule "framework-core"]
 	path = framework-core
 	url = https://github.com/Bryasxin/framework-core
