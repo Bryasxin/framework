@@ -8,7 +8,8 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "^2.2.0",
-		"@types/bun": "^1.2.20"
+		"@types/bun": "^1.2.20",
+		"tsdown": "^0.14.1"
 	},
 	"peerDependencies": {
 		"typescript": "^5.9.2"
@@ -21,7 +22,7 @@
 		"reflect-metadata": "^0.2.2"
 	},
 	"workspaces": [
-		"./framework-core"
+		"./packages/*"
 	],
 	"exports": {
 		".": "./framework-core/src/index.ts",
