@@ -21,7 +21,7 @@
 		"reflect-metadata": "^0.2.2"
 	},
 	"workspaces": [
-		"./*.framework.xinhallow"
+		"./framework-core"
 	],
 	"exports": {
 		".": "./framework-core/src/index.ts",
