@@ -3,36 +3,19 @@
   "workspaces": {
     "": {
       "name": "framework.xinhallow",
+      "dependencies": {
+        "reflect-metadata": "^0.2.2",
+      },
       "devDependencies": {
         "@biomejs/biome": "^2.2.0",
         "@types/bun": "^1.2.20",
         "tsdown": "^0.14.1",
+        "type-fest": "^4.41.0",
       },
       "peerDependencies": {
         "typescript": "^5.9.2",
       },
     },
-    "packages/core": {
-      "name": "framework-core",
-      "dependencies": {
-        "reflect-metadata": "catalog:",
-      },
-      "devDependencies": {
-        "@biomejs/biome": "catalog:",
-        "@types/bun": "catalog:",
-        "type-fest": "catalog:",
-      },
-      "peerDependencies": {
-        "typescript": "catalog:",
-      },
-    },
-  },
-  "catalog": {
-    "@biomejs/biome": "^2.2.0",
-    "@types/bun": "^1.2.20",
-    "reflect-metadata": "^0.2.2",
-    "type-fest": "^4.41.0",
-    "typescript": "^5.9.2",
   },
   "packages": {
     "@babel/generator": ["@babel/generator@7.28.3", "https://registry.npmmirror.com/@babel/generator/-/generator-7.28.3.tgz", { "dependencies": { "@babel/parser": "^7.28.3", "@babel/types": "^7.28.2", "@jridgewell/gen-mapping": "^0.3.12", "@jridgewell/trace-mapping": "^0.3.28", "jsesc": "^3.0.2" } }, "sha512-3lSpxGgvnmZznmBkCRnVREPUFJv2wrv9iAoFDvADJc0ypmdOxdUtcLeBgBJ6zE0PMeTKnxeQzyk0xTBq4Ep7zw=="],
@@ -148,8 +131,6 @@
     "empathic": ["empathic@2.0.0", "https://registry.npmmirror.com/empathic/-/empathic-2.0.0.tgz", {}, "sha512-i6UzDscO/XfAcNYD75CfICkmfLedpyPDdozrLMmQc5ORaQcdMoc21OnlEylMIqI7U8eniKrPMxxtj8k0vhmJhA=="],
 
     "fdir": ["fdir@6.5.0", "https://registry.npmmirror.com/fdir/-/fdir-6.5.0.tgz", { "peerDependencies": { "picomatch": "^3 || ^4" }, "optionalPeers": ["picomatch"] }, "sha512-tIbYtZbucOs0BRGqPJkshJUYdL+SDH7dVM8gjy+ERp3WAUjLEFJE+02kanyHtwjWOnwrKYBiwAmM0p4kLJAnXg=="],
-
-    "framework-core": ["framework-core@workspace:packages/core"],
 
     "get-tsconfig": ["get-tsconfig@4.10.1", "https://registry.npmmirror.com/get-tsconfig/-/get-tsconfig-4.10.1.tgz", { "dependencies": { "resolve-pkg-maps": "^1.0.0" } }, "sha512-auHyJ4AgMz7vgS8Hp3N6HXSmlMdUyhSUrfBF16w153rxtLIEOE+HGqaBppczZvnHLqQJfiHotCYpNhl0lUROFQ=="],
 

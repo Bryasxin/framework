@@ -3,8 +3,10 @@ import { defineConfig } from "tsdown";
 export default defineConfig({
 	platform: "node",
 	plugins: [],
+	target: "esnext",
 	tsconfig: "./tsconfig.json",
-	workspace: ["packages/*"],
-	entry: "./src/index.ts",
+	entry: {
+		index: "./src/index.ts",
+	},
 	dts: true,
 });
